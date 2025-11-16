@@ -1,0 +1,19 @@
+ - Install Python
+
+ - Download Python (Windows x64) from python.org.
+
+ - Run the installer and check “Add python.exe to PATH.”
+
+
+
+ - Open the project folder in a terminal
+
+ - Open File Explorer → go to the project folder (e.g., C:\digit-recognition).
+
+
+
+
+python -m pip install -r requirements-flex.txt
+
+
+python app.py

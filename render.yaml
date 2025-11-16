@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: digit-recognition
+    env: python
+    buildCommand: pip install -r requirements-web.txt
+    startCommand: python web_app_production.py
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: FLASK_ENV
+        value: production
+      - key: MODEL_PATH
+        value: bestmodel.h5
+
